@@ -14,4 +14,7 @@ describe("isSquare", function(){
   it("return false if the value entered is not a square", function(){
     expect(isSquare(15)).to.equal(false);
   });
+  it("return true if the value entered is a square", function(){
+    expect(isSquare(16)).to.equal(true);
+  });
 });

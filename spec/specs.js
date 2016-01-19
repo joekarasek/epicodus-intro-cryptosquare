@@ -29,7 +29,7 @@ describe("getCryptoSize", function(){
 });
 
 describe("sliceText", function(){
-  it("it will slice off front of input string based on input", function(){
-    expect(sliceText("asdfasdfg", 4)).to.equal("asdf");
+  it("return the first x (crypto size) characters of input string", function(){
+    expect(sliceText("asdfghjkl", 4)).to.equal("asdf");
   });
 });

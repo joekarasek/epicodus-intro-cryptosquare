@@ -18,3 +18,7 @@ var getCryptoSize = function(cryptoText) {
     return Math.sqrt(lengthTemp);
   }
 }
+
+var sliceText = function(cryptoText, cryptoSize) {
+  return cryptoText.slice(0,cryptoSize);
+}

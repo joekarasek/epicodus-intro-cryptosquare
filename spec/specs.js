@@ -9,3 +9,9 @@ describe("normalizeText", function(){
     expect(normalizeText("aa bb aa bb")).to.equal("aabbaabb");
   });
 });
+
+describe("isSquare", function(){
+  it("return false if the value entered is not a square", function(){
+    expect(isSquare(15)).to.equal(false);
+  });
+});

@@ -8,6 +8,8 @@
 
 _The cryptosquare function is intended to encrypt a string via the traditional cryptosquare methodology. A string is entered and an encrypted string should be returned._
 
+_The current version of this code does not do all the sets necessary to create a crypto-square. Functions are in place and tested to normalize a string (remove uppercase, spaces, and special characters), determine the size of square needed to fit a string, and both fetch and remove first n characters from a string._
+
 ## Setup/Installation Requirements
 
 * Either clone this repository, or fork it and clone your own copy
@@ -19,6 +21,8 @@ _As of this version, no UI has been constructed for this function._
 ## Known Bugs
 
 _As of this version, there are no known bugs with the program. Functionality was tested using Mocha BDD framework with Chai assertions._
+
+_No UI is included. Sorry._
 
 ## Support and contact details
 

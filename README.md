@@ -1,37 +1,35 @@
-# _{Application Name}_
+# _CryptoSquare_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Take a function and turn into a cryptosquare, 1.19.2016_
 
-#### By _**{List of contributors}**_
+#### By _**Joseph Karasek and Joshua Gustafson**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_The cryptosquare function is intended to encrypt a string via the traditional cryptosquare methodology. A string is entered and an encrypted string should be returned._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Either clone this repository, or fork it and clone your own copy
+* Open to  spec/specs.js to see the chai assertions for our specs
+* Open spec/spec-runner.html to see Mocha in action
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_As of this version, no UI has been constructed for this function._
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_As of this version, there are no known bugs with the program. Functionality was tested using Mocha BDD framework with Chai assertions._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Feel free to leave your thoughts and comments on the GitHub repository where this code was found._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_This project includes the Bootstrap CSS framework from Twitter, but it has not been used yet to style any frontend design. The functionality of the javascript was tested using the Mocha js framework with assertions written in Chai._
 
 ### License
 
 MIT License.
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Joseph Karasek and Joshua Gustafson_**

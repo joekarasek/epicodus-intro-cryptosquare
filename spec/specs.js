@@ -24,6 +24,6 @@ describe("getCryptoSize", function(){
     expect(getCryptoSize("asdfasdfg")).to.equal(3);
   });
   it("return crypto square size for string that is not a perfect square", function(){
-    expect(getCryptoSize("asdfa")).to.equal(3);
+    expect(getCryptoSize("asdfasdfasd")).to.equal(4);
   });
 });

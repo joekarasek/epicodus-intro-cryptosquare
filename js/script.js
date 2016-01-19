@@ -10,5 +10,11 @@ var isSquare = function(number) {
 var getCryptoSize = function(cryptoText) {
   if (isSquare(cryptoText.length)) {
     return Math.sqrt(cryptoText.length);
+  } else {
+    var lengthTemp = cryptoText.length;
+    for (var i = cryptoText.length; !isSquare(i); i += 1 ) {
+      lengthTemp += 1;
+    }
+    return Math.sqrt(lengthTemp);
   }
 }

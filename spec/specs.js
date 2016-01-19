@@ -27,3 +27,9 @@ describe("getCryptoSize", function(){
     expect(getCryptoSize("asdfasdfasd")).to.equal(4);
   });
 });
+
+describe("sliceText", function(){
+  it("it will slice off front of input string based on input", function(){
+    expect(sliceText("asdfasdfg", 4)).to.equal("asdf");
+  });
+});

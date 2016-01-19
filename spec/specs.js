@@ -33,3 +33,9 @@ describe("sliceText", function(){
     expect(sliceText("asdfghjkl", 4)).to.equal("asdf");
   });
 });
+
+describe("removeSlice", function(){
+  it("return the string front n characters removed", function(){
+    expect(removeSlice("asdfghjkl", 4)).to.equal("ghjkl");
+  });
+});

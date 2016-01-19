@@ -18,3 +18,12 @@ describe("isSquare", function(){
     expect(isSquare(16)).to.equal(true);
   });
 });
+// find smallest square value that is greater than the string length.
+describe("getCryptoSize", function(){
+  it("return crypto square size for string that have a legth that is a perfect square", function(){
+    expect(getCryptoSize("asdfasdfg")).to.equal(3);
+  });
+  it("return crypto square size for string that is not a perfect square", function(){
+    expect(getCryptoSize("asdfa")).to.equal(3);
+  });
+});

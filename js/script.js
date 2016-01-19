@@ -6,3 +6,9 @@ var normalizeText = function(textToNormalize) {
 var isSquare = function(number) {
   return Math.sqrt(number) % 1 === 0;
 }
+// get the size of the cryptosquare, side length
+var getCryptoSize = function(cryptoText) {
+  if (isSquare(cryptoText.length)) {
+    return Math.sqrt(cryptoText.length);
+  }
+}

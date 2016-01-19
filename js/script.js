@@ -22,3 +22,7 @@ var getCryptoSize = function(cryptoText) {
 var sliceText = function(cryptoText, cryptoSize) {
   return cryptoText.slice(0,cryptoSize);
 }
+
+var removeSlice = function(cryptoText, cryptoSize) {
+  return cryptoText.slice(cryptoSize, cryptoText.length);
+}
